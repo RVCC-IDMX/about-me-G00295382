@@ -30,3 +30,33 @@ header {
     max-width:500px;
     min-width:300px;
 }
+
+#interests ul {
+    width:350px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#interests ul li {
+    text-align:left;
+}
+
+#gallery {
+    border:2px solid;
+    text-align:center;
+}
+
+#lit p::first-letter {
+    color:black;
+    font-size:250%;
+    padding:0.5ex;
+    margin-right:.5ex;
+    font-weight:.5ex;
+    background-color:#eeeeee;
+    text-shadow:2px 2px 2px rgba(0,0,0,.5);
+    box-shadow:3px 3px 3px rgba(0,0,0,.5);
+    border-top-left-radius:1mm;
+
+    float:left;
+    border: 5px double black;
+}
