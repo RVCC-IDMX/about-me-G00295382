@@ -1,6 +1,6 @@
 body {
-    color:#3583E6;
-    background-color:#C4E62F;
+    color:#26C0FC;
+    background-color:#C4E62E;
     font-family: 'Rubik', sans-serif;
     font-size:20px;
 }
@@ -25,10 +25,21 @@ header {
     text-align:center;
 }
 
+#personal {
+    background-color:#FF6939;
+    padding:21px;
+}
+
 #hero img {
     width:50vw;
     max-width:500px;
     min-width:300px;
+}
+
+#interests {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 #interests ul {
@@ -42,11 +53,17 @@ header {
 }
 
 #gallery {
-    border:2px solid;
     text-align:center;
+    margin-top:100px;
+    background-color:#FCF226;
+    padding-bottom:50px;
 }
 
-#lit p::first-letter {
+#gallery hr {
+    display:none;
+}
+
+#lit p:nth-child(odd):first-letter {
     color:black;
     font-size:250%;
     padding:0.5ex;
@@ -59,4 +76,50 @@ header {
 
     float:left;
     border: 5px double black;
+}
+
+#lit {
+    background-color:#FF6939;
+    padding:80px;
+}
+
+#lit h2 {
+    text-align:center;
+}
+
+@media screen and (min-width:768px) {
+
+    #gallery figure {
+        display:grid;
+        grid-template-columns:2fr 1fr;
+    }
+    #gallery figcaption {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+
+    #lit div {
+        max-width:100%;
+        columns:40rem;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+
+    #gallery {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+    }
+
+    #gallery h2 {
+        grid-column:1/-1;
+    }
+
+    /* Shifts caption from right to bottom */
+    #gallery figure {
+        display:block;
+    }
+
 }
