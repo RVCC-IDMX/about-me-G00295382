@@ -1,8 +1,10 @@
 body {
-    color:#26C0FC;
+    color:#4939E6;
     background-color:#C4E62E;
     font-family: 'Rubik', sans-serif;
     font-size:20px;
+    margin:0;
+    padding-top:20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,20 +16,42 @@ header {
     text-align:center;
 }
 
-#hero, footer {
+/* text and background colors */
+
+#hero, #gallery, footer {
     text-align:center;
+    color:#3257FC;
     background-color:#FCF226;
-    padding:20px;
-    border:2px solid #F2D424;
 }
+
+#personal, #lit {
+    background-color:#FF6939;
+    color:#38FFD1;
+}
+
+/* padding and alignment */
 
 #personal, #interests {
     text-align:center;
 }
 
 #personal {
-    background-color:#FF6939;
     padding:21px;
+}
+
+#hero, footer {
+    padding:20px;
+}
+
+#lit {
+    padding:80px;
+    padding-top:20px;
+}
+
+#video {
+    padding-top:80px;
+    padding-bottom:80px;
+    text-align:center;
 }
 
 #hero img {
@@ -53,9 +77,7 @@ header {
 }
 
 #gallery {
-    text-align:center;
     margin-top:100px;
-    background-color:#FCF226;
     padding-bottom:50px;
 }
 
@@ -76,11 +98,6 @@ header {
 
     float:left;
     border: 5px double black;
-}
-
-#lit {
-    background-color:#FF6939;
-    padding:80px;
 }
 
 #lit h2 {
