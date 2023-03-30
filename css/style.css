@@ -19,15 +19,12 @@ header {
 /* text and background colors */
 
 #hero, #gallery, #contact, footer {
-    text-align:center;
     color:#3257FC;
     background-color:#FCF226;
 }
 
-#form {
-    margin-left:200px;
-    margin-right:200px;
-    padding-bottom:20px;
+#contact fieldset {
+    border:2px solid #3257FC;
 }
 
 #personal, #lit {
@@ -36,6 +33,40 @@ header {
 }
 
 /* padding and alignment */
+
+#form {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:20px;
+    max-width:400px;
+}
+
+#phonetype {
+    display:grid;
+    grid-template-columns: 150px auto;
+}
+
+#contact fieldset {
+    text-align:left;
+    display:grid;
+    margin-top:1ex;
+    margin-bottom:1ex;
+    padding:1em;
+    border-radius:1em;
+}
+
+#contact fieldset fieldset {
+    grid-template-columns: 30px auto;
+}
+
+#contact label {
+    margin:1ex;
+}
+
+#hero, #gallery, #contact h2, footer {
+    text-align:center;
+}
 
 #personal, #interests {
     text-align:center;
