@@ -43,6 +43,8 @@ header {
 }
 
 #phonetype {
+    padding-top:20px;
+    padding-bottom:20px;
     display:grid;
     grid-template-columns: 150px auto;
 }
