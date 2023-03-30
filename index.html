@@ -114,6 +114,63 @@
             <!-- end of video -->
         </section>
 
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form method="get" id="form">
+
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="name">Your Name :</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <br>
+
+                    <label for="email">Your Email :</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <br>
+
+                    <label for="phone">Your Phone :</label>
+                    <input id="phone" name="phone" type="tel">
+
+                    <br>
+
+                    <label for="type">Phone Type :</label>
+                    <select id="type" name="type">
+                        <option value="home">Home</option>
+                        <option value="cell">Cell</option>
+                        <option value="work">Work</option>
+                    </select>
+
+                    <br>
+
+                    <input type="submit">
+
+                    <br>
+
+                    <label for="message">Your Message :</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Contact Back?</legend>
+                        <input id="yes" name="contactback" type="radio" checked="true" value="yes">
+                        <label for="yes">Yes Please!</label>
+                        <br>
+                        <input id="no" name="contactback" type="radio" value="no">
+                        <label for="no">No Thanks</label>
+                    </fieldset>
+
+                    <br>
+
+                    <button type="submit">Send Message</button>
+                </fieldset>
+
+            </form>
+        </section>
+
     </main>
 
     <footer>
