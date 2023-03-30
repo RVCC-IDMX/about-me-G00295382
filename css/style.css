@@ -18,10 +18,16 @@ header {
 
 /* text and background colors */
 
-#hero, #gallery, footer {
+#hero, #gallery, #contact, footer {
     text-align:center;
     color:#3257FC;
     background-color:#FCF226;
+}
+
+#form {
+    margin-left:200px;
+    margin-right:200px;
+    padding-bottom:20px;
 }
 
 #personal, #lit {
