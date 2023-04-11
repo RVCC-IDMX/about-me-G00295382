@@ -3,21 +3,21 @@
 
 This project encompasses all the skills I've learned throughout the IDMX-225-01 class.
 
-1. Heading
+- Heading
   - How to create navbars
 
-2. Hero
+- Hero
   - How to import images
 
-3. Interests
+- Interests
   - How to create lists
 
-4. Gallery
+- Gallery
   - How how use figures
   - How to use grids in css
 
-5. Video
+- Video
   - How to embed videos
 
-6. Contact Me
+- Contact Me
   - How to create web forms
