@@ -16,7 +16,7 @@ This webpage encompasses all the skills I've learned throughout the IDMX-225-01 
 
 - Gallery
   - How how use figures
-  - How to use grids in css
+  - How to use grids in CSS
 
 - Video
   - How to embed videos
@@ -24,6 +24,26 @@ This webpage encompasses all the skills I've learned throughout the IDMX-225-01 
 - Contact Me
   - How to create web forms
 
-# Color Scheme
+## Color Scheme
 
-The color scheme for this webpage was selected using the Adobe Color Wheel
+I have always liked bright vivid colors, so I used the Adobe Color Wheel to select a few for me to place into a pattern
+
+The main background and font colors used are listed below :
+
+- 
+  - Background Color : ![#C4E62E](https://placehold.co/15x15/C4E62E/C4E62E.png) `#C4E62E`
+  - Font Color :       ![#4939E6](https://placehold.co/15x15/4939E6/4939E6.png) `#4939E6`
+- 
+  - Background Color : ![#FCF226](https://placehold.co/15x15/FCF226/FCF226.png) `#FCF226`
+  - Font Color :       ![#3257FC](https://placehold.co/15x15/3257FC/3257FC.png) `#3257FC`
+- 
+  - Background Color : ![#FF6939](https://placehold.co/15x15/FF6939/FF6939.png) `#FF6939`
+  - Font Color :       ![#38FFD1](https://placehold.co/15x15/38FFD1/38FFD1.png) `#38FFD1`
+
+## Citations
+
+- All colors were selected using the [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
