@@ -47,7 +47,7 @@ The main background and font colors used are listed below :
 
 - All colors were selected using the [Adobe Color Wheel](https://color.adobe.com/create/color-wheel)
 
-- My article was written with help the following sites :
+- My article was written with help from the following sites :
   - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context
   - https://www.freecodecamp.org/news/z-index-in-css-what-it-is-and-what-it-does/
   - https://ishadeed.com/article/understanding-z-index/
